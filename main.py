@@ -285,41 +285,5 @@ async def _queue(ctx, url: str):
 '''END OF MUSIC AND VOICE CHANNEL RELATED COMMANDS'''
 
 
-#SPAM PINGS
-@client.command(aliases = ["spam_ping", "Spam_ping", "spamping"])
-@cooldown(1, 86400, BucketType.default)
-async def _spam_ping(ctx):
-    ping_count = 0
-    while ping_count != 69415:
-        time.sleep(float(0.1))
-        await ctx.send("<@467451098735837186>")
-        ping_count = ping_count + 1
-
-
-
-@client.group(invoke_without_command = True, aliases = ["testfunc"])
-async def _testfunction(ctx):
-    await ctx.send("**TEST FUNCTION MAIN**")
-
-
-@_testfunction.command(aliases = ["test1"])
-async def _testone(ctx):
-    file_name = "filetest11"
-    await ctx.send(f"TEST FUNCTION SECONDARY {file_name}")
-    print(f"TEST FUNCTION SECONDARY {file_name}")
-
-@_testfunction.command(aliases = ["test2"])
-async def _testtwo(ctx):
-    file_name = "filetest12"
-    await ctx.send(f"TEST FUNCTION SECONDARY {file_name}")
-    print(f"TEST FUNCTION SECONDARY {file_name}")
-
-@_testfunction.command(aliases = ["test3"])
-async def _testthree(ctx):
-    file_name = "filetest13"
-    await ctx.send(f"TEST FUNCTION SECONDARY {file_name}")
-    print(f"TEST FUNCTION SECONDARY {file_name}")
-
-
 keep_alive()
 client.run(BOT_TOKEN)
