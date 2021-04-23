@@ -1,5 +1,5 @@
 '''
-Copyright (©) 2021 Kiet Pham <kiet.riley2005@gmail.com>
+Copyright (©) 2020 Kiet Pham <kiet.riley2005@gmail.com>
 This software/program has a copyright license, more information is in the 'LICENSE' file
 IF YOU WANT TO USE/COPY/MODIFY/REPRODUCE/RE-DISTRIBUTE THIS PROGRAM, YOU MUST INCLUDE A COPY OF THE LICENSE
 
