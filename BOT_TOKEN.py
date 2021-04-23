@@ -1,1 +1,2 @@
-BOT_TOKEN = "ODAyNjk4MzEzMjI0NjgzNTMx.YAzBDw.-zyZdRKO65GFw-AjBpAuHXM2MDA"
+import os
+BOT_TOKEN =  os.environ["BOT_TOKEN_HIDDEN"]
