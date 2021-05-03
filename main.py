@@ -65,7 +65,6 @@ async def ping(ctx):
     await ctx.send(f"Pong motherfucker {client.latency * 1000}ms")
 
 
-'''
 #GTA V roast meme LAMAR SIDE
 @client.command(aliases = ["loc", "Loc", "LOC", "crib", "Crib", "gtavroast", "GTAVroast"])
 async def _loclamar(ctx):
@@ -86,12 +85,12 @@ async def _loclamar(ctx):
         await ctx.send("if she ever stop fucking with that brain surgeon or lawyer she fucking with")
         time.sleep(float(0.75))
         await ctx.send("N-word")
-'''
+
 
 
 '''START OF MUSIC AND VOICE CHANNEL RELATED COMMANDS'''
 
-'''
+
 #VOICE CHANNEL JOIN
 @client.command(pass_context = True, aliases = ["Join", "join", "j", "J", "connect", "Connect"])
 async def _join(ctx):
@@ -294,8 +293,8 @@ async def _queue(ctx, url: str):
         ydl.download([url])
     await ctx.send("Adding song " + str(queue_num) + " to the queue")
     print("added a song to queue\n")
-'''
 
+'''
 import discord
 from discord.ext import commands
 import random
@@ -764,6 +763,7 @@ class Music(commands.Cog):
 
 def setup(bot):
     bot.add_cog(Music(bot))
+'''
 
 '''END OF MUSIC AND VOICE CHANNEL RELATED COMMANDS'''
 
