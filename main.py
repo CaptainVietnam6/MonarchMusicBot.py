@@ -5,7 +5,7 @@ IF YOU WANT TO USE/COPY/MODIFY/REPRODUCE/RE-DISTRIBUTE THIS PROGRAM, YOU MUST IN
 
 Author Name: Kiet Pham
 Author Contact: kiet.riley2005@gmail.com
-Discord: CaptainVietnam6#7932
+Discord: CaptainVietnam6#0001
 Discord Server: https://discord.gg/3z76p8H5yj
 GitHub: https://github.com/CaptainVietnam6
 Instagram: @itz_kietttttttttt
