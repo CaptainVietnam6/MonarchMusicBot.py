@@ -294,6 +294,8 @@ async def _queue(ctx, url: str):
     await ctx.send("Adding song " + str(queue_num) + " to the queue")
     print("added a song to queue\n")
 
+
+
 '''
 import discord
 from discord.ext import commands
